@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="0.910961921">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.910961921" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="stm32" buildProperties="" description="" id="0.910961921" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.910961921." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.952979152" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="org.eclipse.cdt.build.core.prefbase.toolchain.952979152.52310970" name=""/>
+							<builder arguments="-f -c eclipse" cleanBuildTarget="run --target clean" command="platformio" id="org.eclipse.cdt.build.core.settings.default.builder.1519453406" incrementalBuildTarget="run" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1409095472" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1624502120" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.239157887" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Device\ST\STM32F1xx\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\STM32F1xx_HAL_Driver\Inc"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\Common"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ak4343"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\cs43l22"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\hx8347d"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9320"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9325"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\lis302dl"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\spfd5408"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\st7735"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stlm75"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stmpe811"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\tool-unity"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\src"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.922107295" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PLATFORMIO=40000"/>
+									<listOptionValue builtIn="false" value="STM32F103xB"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="F_CPU=72000000L"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.149990277" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.54121539" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1096940598" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Device\ST\STM32F1xx\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\STM32F1xx_HAL_Driver\Inc"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\Common"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ak4343"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\cs43l22"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\hx8347d"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9320"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9325"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\lis302dl"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\spfd5408"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\st7735"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stlm75"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stmpe811"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\tool-unity"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\src"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1198905600" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PLATFORMIO=40000"/>
+									<listOptionValue builtIn="false" value="STM32F103xB"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="F_CPU=72000000L"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.762536863" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1310559623" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.41298875" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Device\ST\STM32F1xx\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\STM32F1xx_HAL_Driver\Inc"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\Common"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ak4343"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\cs43l22"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\hx8347d"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9320"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9325"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\lis302dl"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\spfd5408"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\st7735"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stlm75"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stmpe811"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\tool-unity"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\src"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.884639970" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PLATFORMIO=40000"/>
+									<listOptionValue builtIn="false" value="STM32F103xB"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="F_CPU=72000000L"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.549319812" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="0.910961921.1363900502">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.910961921.1363900502" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="mbed" buildProperties="" description="" id="0.910961921.1363900502" name="Debug" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.910961921.1363900502." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.2116690625" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="org.eclipse.cdt.build.core.prefbase.toolchain.2116690625.848954921" name=""/>
+							<builder arguments="-f -c eclipse debug" cleanBuildTarget="run --target clean" command="platformio" enableCleanBuild="false" id="org.eclipse.cdt.build.core.settings.default.builder.985867833" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1855678035" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.30528994" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.794801023" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Device\ST\STM32F1xx\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\STM32F1xx_HAL_Driver\Inc"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\Common"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ak4343"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\cs43l22"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\hx8347d"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9320"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9325"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\lis302dl"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\spfd5408"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\st7735"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stlm75"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stmpe811"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\tool-unity"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\src"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1743427839" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PLATFORMIO=40000"/>
+									<listOptionValue builtIn="false" value="STM32F103xB"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="F_CPU=72000000L"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.919136836" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1146422798" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.650084869" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Device\ST\STM32F1xx\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\STM32F1xx_HAL_Driver\Inc"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\Common"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ak4343"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\cs43l22"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\hx8347d"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9320"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9325"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\lis302dl"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\spfd5408"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\st7735"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stlm75"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stmpe811"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\tool-unity"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\src"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.2055633423" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PLATFORMIO=40000"/>
+									<listOptionValue builtIn="false" value="STM32F103xB"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="F_CPU=72000000L"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.445650141" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1637357529" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1246337321" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\CMSIS\Device\ST\STM32F1xx\Include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\STM32F1xx_HAL_Driver\Inc"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\Common"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ak4343"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\cs43l22"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\hx8347d"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9320"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\ili9325"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\lis302dl"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\spfd5408"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\st7735"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stlm75"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\framework-stm32cube\f1\Drivers\BSP\Components\stmpe811"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\.platformio\packages\tool-unity"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\include"/>
+									<listOptionValue builtIn="false" value="${USERPROFILE}\Desktop\stm32_with_esp8266_dht11\stm32\src"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.2122043341" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PLATFORMIO=40000"/>
+									<listOptionValue builtIn="false" value="STM32F103xB"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="F_CPU=72000000L"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.207004812" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="stm32.null.189551033" name="stm32"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.910961921">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/genericSTM32F103CB"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="PlatformIO: Upload using Programmer" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>platformio</buildCommand>
+				<buildArguments>-f -c eclipse</buildArguments>
+				<buildTarget>run -t program</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="PlatformIO: Upload SPIFFS image" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>platformio</buildCommand>
+				<buildArguments>-f -c eclipse</buildArguments>
+				<buildTarget>run -t uploadfs</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="PlatformIO: Build" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>platformio</buildCommand>
+				<buildArguments>-f -c eclipse</buildArguments>
+				<buildTarget>run</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="PlatformIO: Upload" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>platformio</buildCommand>
+				<buildArguments>-f -c eclipse</buildArguments>
+				<buildTarget>run -t upload</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="PlatformIO: Clean" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>platformio</buildCommand>
+				<buildArguments>-f -c eclipse</buildArguments>
+				<buildTarget>run -t clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="PlatformIO: Test" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>platformio</buildCommand>
+				<buildArguments>-f -c eclipse</buildArguments>
+				<buildTarget>test</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="PlatformIO: Update platforms and libraries" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>platformio</buildCommand>
+				<buildArguments>-f -c eclipse</buildArguments>
+				<buildTarget>update</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="PlatformIO: Rebuild C/C++ Project Index" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>platformio</buildCommand>
+				<buildArguments>-f -c eclipse</buildArguments>
+				<buildTarget>init --ide eclipse</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+</cproject>

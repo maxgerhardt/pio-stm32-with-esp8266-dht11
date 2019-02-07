@@ -36,4 +36,5 @@ Copy your "Channel ID: XXXXX" and "Write API Key" (in "API Keys") to the `.h` fi
 
 ## Media 
 
+![thingspeak](thingspeak_channel.png)
 

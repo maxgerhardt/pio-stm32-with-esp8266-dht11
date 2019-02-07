@@ -51,3 +51,10 @@ You can then import that folder in your IDE. For more IDEs, type `pio init --hel
 ![setup](setup.jpg)
 
 ![cubemx](cubemx.png)
+
+## Credits 
+
+- Maximilian Gerhardt 
+- Delay code: https://www.controllerstech.com/create-1-microsecond-delay-stm32/
+- DHT11 code: https://www.waveshare.com/wiki/DHT11_Temperature-Humidity_Sensor 
+- STM32 base project generated with STMicroElectronics CubeMX

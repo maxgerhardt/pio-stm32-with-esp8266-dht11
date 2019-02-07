@@ -34,6 +34,16 @@ Format the graphs in the private view as much as you like, e.g. with °C on the 
 
 Copy your "Channel ID: XXXXX" and "Write API Key" (in "API Keys") to the `.h` file as described above. Also put your correct WiFi credentials in there.
 
+## IDE setup 
+
+If you want to import these projects into an IDE, go into either the `esp8266` or `stm32` directory and type 
+
+```sh
+pio init --ide=vscode
+```
+
+You can then import that folder in your IDE. For more IDEs, type `pio init --help`. 
+
 ## Media 
 
 ![thingspeak](thingspeak_channel.png)

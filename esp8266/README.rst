@@ -13,7 +13,7 @@ How to build PlatformIO based project
 =====================================
 
 1. `Install PlatformIO Core <http://docs.platformio.org/page/core.html>`_
-2. Download this repository_
+2. Download this repository
 3. Extract ZIP archive
 4. Run these commands:
 

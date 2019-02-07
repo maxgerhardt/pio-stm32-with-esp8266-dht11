@@ -36,7 +36,7 @@ Copy your "Channel ID: XXXXX" and "Write API Key" (in "API Keys") to the `.h` fi
 
 ## IDE setup 
 
-If you want to import these projects into an IDE, go into either the `esp8266` or `stm32` directory and type 
+If you want to import these projects into an IDE, open your shell (`cmd.exe` or bash, ..) go into either the `esp8266` or `stm32` directory and execute the command 
 
 ```sh
 pio init --ide=vscode
